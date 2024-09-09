@@ -27,14 +27,10 @@ Mettere nelle regole di debug solo le alezze fisse e colori di sfondo sgargianti
     width: 100%;
 
 }
-.discord, .scarica, .login, .nitro, .sicurezza, .assistenza{
+
+.logo{
     display: flex;
     justify-content: space-between;
-    
-}
-.scarica, .login, .nitro, .sicurezza, .assistenza{
-     display: flex;
-     text-align: center;
 }
 #debug .container-sm {
     height: 400px;
