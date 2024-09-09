@@ -30,7 +30,9 @@ Mettere nelle regole di debug solo le alezze fisse e colori di sfondo sgargianti
 
 .logo{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    
 }
 #debug .container-sm {
     height: 400px;
