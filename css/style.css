@@ -5,34 +5,37 @@
     box-sizing: border-box;
 }
 
-:root {
-    --dis-primary-color: blue;
-    --dis-light-color: gray;
-    --dis-dark-color: #121222;
-
-}
 
 /* Makes images responsive (adaptable to their contaienr */
 img {
     max-width: 100%;
+    
 }
 
 /* debug 
 Mettere nelle regole di debug solo le alezze fisse e colori di sfondo sgargianti 
 */
 
-#debug * {
+#debug {
     border: 1px dashed;
+    width: 100%;
+
 }
 
 #debug header {
-    background-color: red;
+    background-color:rgba(0, 0, 255, 0.779);
+    width: 100%;
 
+}
+.logo, .main_menu, .login, .nitro, .sicurezza, .assistenza{
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 #debug .container-sm {
     height: 400px;
-    background-color: paleturquoise;
+    background-color:blue;
 
 }
 
@@ -106,6 +109,7 @@ hr.divider {
 .py-4 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
 }
 
 /* colors */
