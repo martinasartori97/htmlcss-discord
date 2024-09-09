@@ -5,14 +5,16 @@
     max-width: 100%;
     padding: 0;
 }
-/* Utility for sections */
+/* Utility for sections header */
 .Section1container{
     display:flex;
     justify-content:center;
     align-items:center;
     height:100px;
     width:100%;
-    background-color: aquamarine !important;
+    background-color: rgba(0, 42, 255, 0.744) !important;
+
+    
 }
 .Section2-3-4-5-7container{
     display:flex;
@@ -201,5 +203,4 @@ Background colors palette
     background-color: aqua;
 }
 .darkorange{
-    background-color: darkorange;
-}
+    backgrou
