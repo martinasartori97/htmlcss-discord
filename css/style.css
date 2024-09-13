@@ -1,0 +1,326 @@
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    ;
+}
+
+
+body {
+    min-width: 1440px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a,
+a::before,
+a::after,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+h3,
+h4 {
+    color: var(--primary-color);
+}
+
+h5 {
+    display: inline;
+}
+
+/* #endregion common */
+
+/* #region debug */
+.debug * {
+    border: 1px dotted;
+}
+
+.debug header {
+    background: green;
+}
+
+.debug main .container {
+    height: 300px;
+}
+
+.debug header section {
+    background: rgb(42, 10, 78);
+    padding: 20px 10px;
+}
+
+.debug nav .container {
+    background: lightgreen;
+}
+
+.debug .container-sm .row {
+    background-color: rgb(204, 125, 138);
+    height: 300px;
+}
+
+.debug footer .logo,
+.debug .btn {
+    background-color: turquoise;
+}
+
+.debug footer .row {
+    background-color: darkgoldenrod;
+}
+
+.debug main section {
+    background-color: grey;
+}
+
+.debug main section:nth-child(2n+1) {
+    background-color: white;
+}
+
+.debug main section:nth-child(2n) {
+    background-color: darkgray;
+}
+
+.debug .col-big {
+    background-color: lightblue;
+}
+
+.debug .col-small {
+    background: lightpink;
+}
+
+.debug .w-100 {
+    background-color: green;
+}
+
+.debug footer section {
+    background: grey;
+}
+
+.debug .w-40 {
+    background-color: violet;
+}
+
+.debug .w-15 {
+    background-color: aqua;
+}
+
+.debug [class^="col-"] {
+    background-color: aquamarine;
+    height: 100%;
+}
+
+
+/* #endregion debug */
+
+/* #region utilities */
+.row,
+.d-flex {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.container-sm {
+    margin: auto;
+    width: 50%;
+}
+
+.ali-items {
+    align-items: center;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.txt-al-c {
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 9999px;
+    border: 1px solid transparent;
+}
+
+/* width */
+.w-20 {
+    width: 20%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+
+/* padding | margin*/
+.py-4 {
+    padding: 2rem 0;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-5 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.px-8 {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.my-4 {
+    margin: 2rem 0;
+}
+
+/* COLORS */
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-dark {
+    background-color: var(--dark-color);
+}
+
+.bg-lighter {
+    background-color: var(--lighter-color);
+}
+
+.bg-light {
+    background-color: var(--light-color);
+}
+
+.bg-accent {
+    background-color: var(--accent-color);
+}
+
+.text-light {
+    color: var(--font-light-color);
+}
+
+.text-dark {
+    color: var(--font-dark-color);
+}
+
+/* wave background */
+.wave {
+    width: 100vw;
+    display: block;
+}
+
+.r-180 {
+    rotate: 180deg;
+}
+
+/* #endregion common */
+
+/* #region header */
+header {
+
+    .login,
+    .logo {
+        flex-grow: 1;
+    }
+
+    .links {
+        flex-grow: 2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .login {
+        text-align: right;
+    }
+
+    .logo {
+        text-align: left;
+    }
+}
+
+/* #endregion header */
+/* #region main */
+.hero-bg {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding: 10rem 0;
+}
+
+.hero-p {
+    font-size: 1.3rem;
+    margin: 3rem 0;
+}
+
+.hero-button {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+}
+
+.title {
+    font-size: 2.4rem;
+}
+
+.desc {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+
+#keep-in-touch {
+    padding: 0 10rem;
+}
+
+.bg-stars {
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* #endregion main */
