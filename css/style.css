@@ -275,8 +275,8 @@ header {
     }
 }
 
-/* #endregion header */
-/* #region main */
+/* endregion header */
+/* region main */
 .hero-bg {
     background-image: url("../img/jumbo.png");
     background-size: cover;
